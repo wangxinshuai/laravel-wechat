@@ -1,17 +1,17 @@
 {
-    "name": "overtrue/laravel-wechat",
-    "description": "微信 SDK for Laravel",
+    "name": "wangxinshuai/laravel-wechat",
+    "description": "微信 SDK for Laravel 基于overtrue/laravel-wechat, 增加了企业微信中getHashMobile方法",
     "keywords": ["wechat", "weixin","laravel", "sdk"],
     "license": "MIT",
     "authors": [
         {
-            "name": "overtrue",
-            "email": "anzhengchao@gmail.com"
+            "name": "wangxinshuai",
+            "email": "wangxinshuai@xiavan.com"
         }
     ],
     "require": {
         "illuminate/container": "^5.1 || ^6.0 || ^7.0 || ^8.0",
-        "overtrue/wechat": "^4.0"
+        "wangxinshuai/wechat": "^4.0"
     },
     "require-dev": {
         "laravel/framework": "^8.5",
